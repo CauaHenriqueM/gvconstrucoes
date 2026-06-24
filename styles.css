@@ -701,6 +701,17 @@ ul { list-style: none; }
   font-size: 0.85rem;
   text-align: center;
 }
+.footer__credit {
+  margin-top: 6px;
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer__credit a {
+  color: var(--blue-400);
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.footer__credit a:hover { color: var(--white); }
 
 .wa-float {
   position: fixed;
